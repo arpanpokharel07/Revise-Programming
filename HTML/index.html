@@ -144,5 +144,33 @@
         <!-- Format text with <abbr> for abbreviations -->
         <p><abbr title="HTML">HTML</abbr>: Hypertext Markup Language</p>
 
+        <!-- Create a basic table with three rows and two columns --> 
+        <!-- Add a header row to a table --> 
+        <table border="1">
+            <tr >
+                <td >Header 1</td>
+                <td>Header 2</td>
+            </tr>
+            <tbody>
+                <!-- Merge two cells in a table using the colspan or rowspan attribute. -->
+                <tr>
+                    <td colspan="2">R11</td>
+                </tr>
+                
+                <tr>
+                    <td rowspan="2">R21</td>
+                    <!-- Add a border to the table and change the background color of a specific cell. -->
+                    <td style="background-color: bisque;">R22</td>
+                </tr>
+                
+                <tr>          
+                    <td>R32</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Add a caption to the table. -->
+        <caption>Table: 1</caption>
+
+
     </body>
 </html>

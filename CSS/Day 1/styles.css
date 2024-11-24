@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.container {
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    width: 50%;
+    color: white;
+    background: linear-gradient(to right top, rgb(13, 19, 200), 25%, rgb(93, 174, 232));
+    font-weight: bolder;
+    display: grid;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", "Courier", monospace;
+}
+
+
+.number{
+    padding: 0;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.days{
+    padding: 0;
+    margin-top: -8px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.css-challenge{
+        padding: 0;
+        margin-top: -3px;
+        margin-bottom: 8px;
+        text-align: center;
+        font-size: 4px;
+}

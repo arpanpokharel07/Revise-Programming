@@ -18,10 +18,30 @@ void Fibonacci(void){
     }
 }
 
+//Function for swapping two numbers
+void SwapTwoNumbers(int i, int j)
+{
+    printf("Value of a and b: Before swap");
+    printf("Value of A: %d and value of B: %d\n",i,j);
+
+    int c = i;
+    i = j;
+    j = c;
+    
+    printf("Value of a and b: After swap");
+    printf("Value of A: %d and value of B: %d\n",i,j);
+
+}
+
 int main() {
     
     //Fibonacci number
     Fibonacci();
+
+    int a = 10;
+    int b = 20;
+    //Swap two numbers
+    SwapTwoNumbers(a,b);
     return 0;
 }
 

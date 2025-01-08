@@ -17,7 +17,6 @@ void Fibonacci(void){
         c = a+b;
     }
 }
-
 //Function for swapping two numbers
 void SwapTwoNumbers(int i, int j)
 {
@@ -33,6 +32,17 @@ void SwapTwoNumbers(int i, int j)
 
 }
 
+//Function to check if user given number is odd or even
+void OddOrEvenNumber(int i)
+{
+    if(i % 2 == 0){
+        printf("%d is an even number\n",i);
+    }
+    else{
+        printf("%d is an odd number\n",i);
+    }
+}
+
 int main() {
     
     //Fibonacci number
@@ -42,6 +52,12 @@ int main() {
     int b = 20;
     //Swap two numbers
     SwapTwoNumbers(a,b);
+    
+    //Odd or even number
+    cout << "Enter a number"<<endl;
+    cin >> a;
+    OddOrEvenNumber(a);
+    
     return 0;
 }
 

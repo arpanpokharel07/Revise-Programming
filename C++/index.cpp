@@ -43,6 +43,19 @@ void OddOrEvenNumber(int i)
     }
 }
 
+//Function to check if user given number is prime number or not
+void PrimeNumber(int i){
+    int divisor[] = {2,3,5,7};
+
+    for(int j = 0; j < 4; j++){
+        if(i % divisor[j] == 0){
+            printf("%d is a not prime number", i);
+            return;
+        }
+    }
+    printf("%d is a prime number", i);
+    
+}
 int main() {
     
     //Fibonacci number
@@ -58,6 +71,9 @@ int main() {
     cin >> a;
     OddOrEvenNumber(a);
     
+    //Prime number or not
+    PrimeNumber(a);
+
     return 0;
 }
 

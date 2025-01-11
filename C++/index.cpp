@@ -73,7 +73,7 @@ void SomeQuestions(int a){
 }
 int main() {
     
-    //Common variable declarations
+/*----------------Common variable declarations----------------*/    
     int a = 0; //Integer
     float f = 1.213; //Float
     double d = 1.2131415; //Double
@@ -82,14 +82,13 @@ int main() {
     string s = "apple"; //String
     char c = 'a'; //Character
 
-    //Arthematic operators
+/*----------------Arthematic operators----------------*/    
     int total = 100+200;
     int subtract = 200-100;
     int multiply = 100*200;
     int divison = 200/100;
     int modulus = 200%100;
-    
-    //Conditional statement
+/*----------------Conditional statement----------------*/    
     //If statement
     if(total == 300) 
     {
@@ -119,6 +118,8 @@ int main() {
             break;
         }
     }
+
+
 
 
     SomeQuestions(a);

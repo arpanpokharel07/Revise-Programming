@@ -74,7 +74,7 @@ void SomeQuestions(int a){
 int main() {
     
     //Common variable declarations
-    int a = 10; //Integer
+    int a = 0; //Integer
     float f = 1.213; //Float
     double d = 1.2131415; //Double
     bool b = true; //Boolean  
@@ -89,6 +89,36 @@ int main() {
     int divison = 200/100;
     int modulus = 200%100;
     
+    //Conditional statement
+    //If statement
+    if(total == 300) 
+    {
+        total = 400;
+    }
+    else if(total == 400)
+    {
+        total = 500;
+    }
+    else {
+        total = 300;
+    }
+
+    //Switch statement
+    switch(a){
+        case 0:{
+            a = 1;
+            break; //Must use break, otherwise it will continue. In this case, it will go to case 1.
+        }case 1:{
+            a = 2;
+            break;
+        }case 2:{
+            a = 3;
+            break;
+        } default:{
+            a = 4;
+            break;
+        }
+    }
 
 
     SomeQuestions(a);

@@ -1,5 +1,6 @@
 #include "iostream"
 using namespace std;
+#include "string.h"
 
 //Function for fibonacci numbers
 void Fibonacci(void){
@@ -45,6 +46,7 @@ void OddOrEvenNumber(int i)
 
 //Function to check if user given number is prime number or not
 void PrimeNumber(int i){
+
     int divisor[] = {2,3,5,7};
 
     for(int j = 0; j < 4; j++){
@@ -56,24 +58,33 @@ void PrimeNumber(int i){
     printf("%d is a prime number", i);
     
 }
-int main() {
-    
-    //Fibonacci number
-    Fibonacci();
 
-    int a = 10;
-    int b = 20;
+void SomeQuestions(int a){
+//Fibonacci number
+    Fibonacci();
     //Swap two numbers
-    SwapTwoNumbers(a,b);
-    
+    SwapTwoNumbers(10, 20);
     //Odd or even number
     cout << "Enter a number"<<endl;
     cin >> a;
     OddOrEvenNumber(a);
-    
     //Prime number or not
     PrimeNumber(a);
+}
+int main() {
+    
+    //Common variable declarations
+    int a = 10; //Integer
+    float f = 1.213; //Float
+    double d = 1.2131415; //Double
+    bool b = true; //Boolean  
+    long l= 123456789; //Long
+    string s = "apple"; //String
+    char c = 'a'; //Character
 
+
+
+    SomeQuestions(a);
     return 0;
 }
 

@@ -119,7 +119,26 @@ int main() {
         }
     }
 
+/*----------------Loops----------------*/    
+    //For loop
+    for(int i=0; i<5; i++)
+    {
+        cout<<i<<endl; //Prints 0 - 4
+    }
+    
+    //While loop
+    int i=0;
+    while(i<5)
+    {
+        cout<<i<<endl; //Prints 0 - 4
+        i++;
+    }
 
+    //Do while loops
+    //It runs once
+    do{
+        cout<<i<<endl; //Print 0 and ends the loop
+    }while(i>5);
 
 
     SomeQuestions(a);

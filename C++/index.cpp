@@ -82,6 +82,13 @@ int main() {
     string s = "apple"; //String
     char c = 'a'; //Character
 
+    //Arthematic operators
+    int total = 100+200;
+    int subtract = 200-100;
+    int multiply = 100*200;
+    int divison = 200/100;
+    int modulus = 200%100;
+    
 
 
     SomeQuestions(a);

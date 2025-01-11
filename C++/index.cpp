@@ -60,6 +60,8 @@ void PrimeNumber(int i){
 }
 
 void SomeQuestions(int a){
+    //Function reduces repeated codes.
+
 //Fibonacci number
     Fibonacci();
     //Swap two numbers
@@ -140,8 +142,11 @@ int main() {
         cout<<i<<endl; //Print 0 and ends the loop
     }while(i>5);
 
+/*----------------Function----------------*/    
+    SomeQuestions(a); 
 
-    SomeQuestions(a);
+
+
     return 0;
 }
 
